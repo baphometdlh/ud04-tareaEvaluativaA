@@ -52,12 +52,12 @@ public class Ud04TareaEvaluativaA1 {
 		Student tempStudent = new Student();
 		Address tempAddress = new Address();
 		
-		tempStudent.setFirstName("Vania");
-		tempStudent.setLastName("Lopez");
-		tempStudent.setEmail("vlopez@birt.eus");
+		tempStudent.setFirstName("Lourdes");
+		tempStudent.setLastName("Perez");
+		tempStudent.setEmail("lperez@birt.eus");
 		tempStudent.getPhones().add("123456789");
 		tempStudent.getPhones().add("666333444");
-		tempStudent.setBirthdate(LocalDate.parse("2016-08-08"));
+		tempStudent.setBirthdate(LocalDate.parse("1979-03-05"));
 		tempAddress.setAddressLine1("Calle arregitorre 10");
 		tempAddress.setAddressLine2("7B");
 		tempAddress.setCity("Elgoibar");
